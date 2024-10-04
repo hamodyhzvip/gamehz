@@ -1,0 +1,45 @@
+/* styles.css */
+body {
+    background-color: black; /* خلفية الصفحة */
+    color: white; /* لون النص */
+    font-family: Arial, sans-serif; /* نوع الخط */
+}
+
+#container {
+    text-align: center;
+}
+
+canvas {
+    background-color: black; /* خلفية اللوحة */
+    display: block;
+    margin: 0 auto; /* مركز اللوحة */
+    border: 5px solid yellow; /* إطار أصفر حول اللوحة */
+}
+
+#left-button, #right-button, #play-button, #again-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    border: none;
+    background-color: #0095DD;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+#left-button:hover, #right-button:hover, #play-button:hover, #again-button:hover {
+    background-color: #007bb5; /* لون مختلف عند التأثير */
+}
+
+.credits {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: opacity 0.3s;
+}
+
+.credits:hover {
+    opacity: 0.7; /* تأثير هوفر */
+}
+*
